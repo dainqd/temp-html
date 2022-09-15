@@ -568,7 +568,7 @@ th {
 }
 
 .text-black {
-    color: #000
+    color: var(--black-color)
 }
 
 .transition {
@@ -2112,7 +2112,7 @@ h6 {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-    color: #000;
+    color: var(--black-color);
     padding-left: 10px;
     border-left: 4px solid #f7631b
 }
@@ -3481,7 +3481,7 @@ dl.toggle.time-line:before {
 }
 
 .left-contents .jq-tab-menu .jq-tab-title {
-    color: #000;
+    color: var(--black-color);
     font-size: 12px;
     font-weight: 500;
     border: none;
@@ -4507,7 +4507,7 @@ dl.toggle.time-line:before {
 
 .single-post-area .navigation-area .nav-left .thumb {
     margin-right: 20px;
-    background: #000
+    background: var(--black-color)
 }
 
 .single-post-area .navigation-area .nav-left .thumb img {
@@ -4546,7 +4546,7 @@ dl.toggle.time-line:before {
 
 .single-post-area .navigation-area .nav-right .thumb {
     margin-left: 20px;
-    background: #000
+    background: var(--black-color)
 }
 
 .single-post-area .navigation-area .nav-right .thumb img {
@@ -4986,4 +4986,13 @@ dl.toggle.time-line:before {
 
 .footer-bottom .footer-social a:hover {
     background-color: #f7631b
+}
+.feedback-contact{
+    margin-bottom: 16px;
+    margin-top: -40px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    /* color: var(--primary-color); */
+    color: #222;
 }

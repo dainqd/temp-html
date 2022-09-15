@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Education</title>
+		<title>Contact Us</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -105,16 +105,18 @@
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+						<div class="map-wrap" style="width:100%; height: 445px;" id="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.427333053084!2d105.78008039576488!3d21.028786536401384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab86cece9ac1%3A0xa9bc04e04602dd85!2zRlBUIEFwdGVjaCBIw6AgTuG7mWkgLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1663265824419!5m2!1svi!2s" width="100%" height="445px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
 									<span class="lnr lnr-home"></span>
 								</div>
 								<div class="contact-details">
-									<h5>Binghamton, New York</h5>
+									<h5>Ha Noi City, Viet Nam</h5>
 									<p>
-										4343 Hinkle Deegan Lake Road
+										No. 8, Detech Building, Ton That Thuyet, My Dinh Ward, Nam Tu Liem District
 									</p>
 								</div>
 							</div>
@@ -123,8 +125,8 @@
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
 								<div class="contact-details">
-									<h5>00 (958) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
+									<h5>+84 3456 899</h5>
+									<p>Mon to Sat 8.30am to 5.30pm</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -132,30 +134,33 @@
 									<span class="lnr lnr-envelope"></span>
 								</div>
 								<div class="contact-details">
-									<h5>support@colorlib.com</h5>
+									<h5>support@5superhero.edu.vn</h5>
 									<p>Send us your query anytime!</p>
 								</div>
 							</div>														
 						</div>
 						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-
-										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+								<h5 class="feedback-contact">Feedback to us</h5>
+							<div>
+								<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+									<div class="row">	
+										<div class="col-lg-6 form-group">
+											<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+										
+											<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+	
+											<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+										</div>
+										<div class="col-lg-6 form-group">
+											<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
+										</div>
+										<div class="col-lg-12">
+											<div class="alert-msg" style="text-align: left;"></div>
+											<button class="genric-btn primary" style="float: right;">Send Message</button>											
+										</div>
 									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
-									</div>
-									<div class="col-lg-12">
-										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Send Message</button>											
-									</div>
-								</div>
-							</form>	
+								</form>	
+							</div>
 						</div>
 					</div>
 				</div>	
@@ -257,7 +262,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
   			<script src="js/easing.min.js"></script>			
 			<script src="js/hoverIntent.js"></script>
 			<script src="js/superfish.min.js"></script>	
