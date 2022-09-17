@@ -124,7 +124,7 @@
     }
 
     .single-feature .title {
-        background: #f7631b
+        background: var(--primary-color)
     }
 }
 
