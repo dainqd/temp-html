@@ -4603,8 +4603,8 @@ dl.toggle.time-line:before {
 /* Course */
 .link-course{
     text-decoration: none;
-    color: #eb6b55;
+    color: var(--primary-color);
 }
 .link-course:hover{
-    color: var(--primary-color);
+    color: #eb6b55;
 }
