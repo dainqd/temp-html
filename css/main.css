@@ -4635,3 +4635,16 @@ dl.toggle.time-line:before {
     color: var(--primary-color);
     cursor: pointer;
 }
+/* admissions */
+.view-more:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.details-admission{
+    color: #eb6b55;
+
+}
+.details-admission:hover{
+  
+    color: var(--primary-color);
+}
