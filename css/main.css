@@ -1080,25 +1080,25 @@ h6 {
 
 .genric-btn.danger {
     color: var(--white-color);
-    background: #f44a40;
+    background: var(--primary-color);
     border: 1px solid transparent
 }
 
 .genric-btn.danger:hover {
-    color: #f44a40;
-    border: 1px solid #f44a40;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     background: var(--white-color)
 }
 
 .genric-btn.danger-border {
-    color: #f44a40;
-    border: 1px solid #f44a40;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     background: var(--white-color)
 }
 
 .genric-btn.danger-border:hover {
     color: var(--white-color);
-    background: #f44a40;
+    background: var(--primary-color);
     border: 1px solid transparent
 }
 
@@ -4606,5 +4606,14 @@ dl.toggle.time-line:before {
     color: var(--primary-color);
 }
 .link-course:hover{
-    color: #eb6b55;
+    color: var(--primary-color);
+}
+/* Blog */
+.img-lg-blog{
+    /* width: 86px; */
+    height: 86px;
+}
+.video-te{
+    height: 200px;
+    width: 300px;
 }
