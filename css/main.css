@@ -2746,9 +2746,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .single-blog .thumb {
-    overflow: hidden
+    overflow: hidden;
+    
 }
-
+.single-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .single-blog .thumb img {
     width: 100%;
     -webkit-transition: all 0.3s ease 0s;
