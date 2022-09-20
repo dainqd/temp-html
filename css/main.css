@@ -4622,3 +4622,8 @@ dl.toggle.time-line:before {
     height: 200px;
     width: 300px;
 }
+/* blog details */
+.text-color{
+    color: var(--primary-color);
+    cursor: pointer;
+}
