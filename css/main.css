@@ -4627,3 +4627,11 @@ dl.toggle.time-line:before {
     color: var(--primary-color);
     cursor: pointer;
 }
+.view-comments{
+    color: var(--seven-color);
+    font-size: 18px;
+}
+.view-comments:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
