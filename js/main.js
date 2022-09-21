@@ -5,8 +5,8 @@ $(document).ready(function() {
         window_height = window.innerHeight,
         header_height = $(".default-header").height(),
         header_height_static = $(".site-header.static").outerHeight(),
-        fitscreen = window_height - header_height;
-
+        fitscreen = window_height - header_height,
+         btn = $('#backtop');
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
 
@@ -422,4 +422,26 @@ $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
     });
 
+});
+//--------------- back to top ---------//
+
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    
+    $('#backtop').fadeIn();
+  } else {
+    $('#backtop').fadeOut();
+  }
+});
+
+$('#backtop').on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+// ----preload----------//
+$(window).on('load', function () {
+    $(".loader").fadeOut();
+    $("#preloder").delay(200).fadeOut("slow");
 });
