@@ -1321,7 +1321,17 @@ h6 {
     color: var(--seven-color)
 }
 
-.single-input {
+.single-input-part {
+    display: block;
+    width: 50%;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: var(--white-color);
+    padding: 0 20px
+}
+
+.single-input-full {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -4731,6 +4741,14 @@ dl.toggle.time-line:before {
 
 }
 .details-admission:hover{
-  
+    color: var(--primary-color);
+}
+.btn-register{
+    margin-top: 24px;
+    border-radius: 2px;
+    float: right
+}
+.btn-register:hover{
+    background-color: var(--white-color);
     color: var(--primary-color);
 }
