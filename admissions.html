@@ -112,57 +112,81 @@
                     <div class="col-lg-8 col-md-8">
                         <h3 class="mb-20 text-center">REGISTER</h3>
                         <form action="#">
-                            <div class="mt-10">
-                                <input type="text" name="full_name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required class="single-input">
-                            </div>
-                            <!-- <div class="mt-10">
-                                <input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input">
-                            </div> -->
-                            <div class="mt-10">
-                                <input type="tel" name="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required class="single-input">
-                            </div>
-                            <div class="mt-10">
-                                <input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
-                            </div>
-    
-                            <div class="mt-10">
-                                <input type="date" name="birthday" placeholder="Birthday" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birthday'" required class="single-input-accent">
-                            </div>
-                            <!-- <div class="mt-10">
-                                <input type="text" name="first_name" placeholder="Secondary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'" required class="single-input-secondary">
-                            </div> -->
-                            <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
-                                <input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" required class="single-input">
-                            </div>
-                            <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
-                                <div class="form-select" id="default-select">
-                                    <select>
-                                        <option value="1">City</option>
-                                        <option value="1">Ha Noi</option>
-                                        <option value="1">Ho Chi Minh</option>
-                                        <option value="1">Da Nang</option>
-                                        <option value="1">Orther</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
-                                <div class="form-select" id="default-select2">
-                                    <select>
-                                        <option value="1">Country</option>
-                                        <option value="1">Viet Nam</option>
-                                        <option value="1">Orther</option>
-                                    </select>
-                                </div>
-                            </div>
+							<div class="row">
+								<div class="col-6">
+									<div class="mt-10">
+										<input type="text" name="full_name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required class="single-input single-input-full">
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="mt-10">
+										<input type="text" name="gender" placeholder="Gender" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Gender'" required class="single-input single-input-full">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="mt-10">
+										<input type="date" name="birthday" placeholder="Birthday" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Birthday'" required class="single-input single-input-full">
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="mt-10">
+										<input type="tel" name="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required class="single-input single-input-full">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-6">
+									<div class="mt-10">
+										<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input single-input-full">
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="input-group-icon mt-10">
+                                		<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+                                		<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" required class="single-input single-input-full">
+                            		</div>
+								</div>
+							</div>
+								
+							<div class="row">
+								<div class="col-6">
+									<div class="input-group-icon mt-10  single-input-full">
+										<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+										<div class="form-select" id="default-select">
+											<select>
+												<option value="1">City</option>
+												<option value="1">Ha Noi</option>
+												<option value="1">Ho Chi Minh</option>
+												<option value="1">Da Nang</option>
+												<option value="1">Orther</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="input-group-icon mt-10  single-input-full">
+										<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+										<div class="form-select" id="default-select2">
+											<select>
+												<option value="1">Country</option>
+												<option value="1">Viet Nam</option>
+												<option value="1">Orther</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
                             <div class="mt-10">
                                 <input type="text" name="facebook" placeholder="Link Facebook" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Link Facebook'" required class="single-input-primary">
                             </div>
                             <div class="mt-10">
                                 <textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
                             </div>
+							<a href="" class="primary-btn text-uppercase mx-auto btn-register">Register</a>
                         </form>
                     </div>
                 </div>
@@ -191,37 +215,37 @@
                         <div class="table-row">
                             <div class="serial">02</div>
                             <div class="country"> <img src="img/elements/f2.jpg" alt="flag">5SUPERHERO</div>
-                            <div class="visit">645032</div>
+                            <div class="visit">638989</div>
                             <div class="percentage">
                                 <div class="progress">
-                                    <div class="progress-bar color-2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar color-2" role="progressbar" style="width: 90%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="table-row">
                             <div class="serial">03</div>
                             <div class="country"> <img src="img/elements/f3.jpg" alt="flag">Oxford </div>
-                            <div class="visit">645032</div>
+                            <div class="visit">625192</div>
                             <div class="percentage">
                                 <div class="progress">
-                                    <div class="progress-bar color-3" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar color-3" role="progressbar" style="width: 75%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="table-row">
                             <div class="serial">04</div>
                             <div class="country"> <img src="img/elements/f4.jpg" alt="flag">Harvard </div>
-                            <div class="visit">645032</div>
+                            <div class="visit">599099</div>
                             <div class="percentage">
                                 <div class="progress">
-                                    <div class="progress-bar color-4" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar color-4" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="table-row">
                             <div class="serial">05</div>
                             <div class="country"> <img src="img/elements/f5.jpg" alt="flag">London </div>
-                            <div class="visit">645032</div>
+                            <div class="visit">588903</div>
                             <div class="percentage">
                                 <div class="progress">
                                     <div class="progress-bar color-5" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
@@ -231,7 +255,7 @@
                         <div class="table-row">
                             <div class="serial">06</div>
                             <div class="country"> <img src="img/elements/f6.jpg" alt="flag">Zurich </div>
-                            <div class="visit">645032</div>
+                            <div class="visit">572168</div>
                             <div class="percentage">
                                 <div class="progress">
                                     <div class="progress-bar color-6" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -241,20 +265,20 @@
                         <div class="table-row">
                             <div class="serial">07</div>
                             <div class="country"> <img src="img/elements/f7.jpg" alt="flag">Chicago </div>
-                            <div class="visit">645032</div>
+                            <div class="visit">566868</div>
                             <div class="percentage">
                                 <div class="progress">
-                                    <div class="progress-bar color-7" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar color-7" role="progressbar" style="width: 60%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="table-row">
                             <div class="serial">08</div>
                             <div class="country"> <img src="img/elements/f8.jpg" alt="flag">RMIT</div>
-                            <div class="visit">645032</div>
+                            <div class="visit">556738</div>
                             <div class="percentage">
                                 <div class="progress">
-                                    <div class="progress-bar color-8" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar color-8" role="progressbar" style="width: 55%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
