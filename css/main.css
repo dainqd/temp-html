@@ -4752,3 +4752,10 @@ dl.toggle.time-line:before {
     background-color: var(--white-color);
     color: var(--primary-color);
 }
+.primary-text{
+    color: var(--primary-color);
+}
+.title-text{
+    margin-top: 10px;
+    margin-left: 3px;
+}
