@@ -4627,7 +4627,6 @@ dl.toggle.time-line:before {
     color: var(--primary-color);
     cursor: pointer;
 }
-<<<<<<< HEAD
 /* Preloder */
 
 #preloder {
@@ -4714,8 +4713,6 @@ dl.toggle.time-line:before {
     color: #812990;
     border-color: #812990;
 }
-  
-=======
 .view-comments{
     color: var(--seven-color);
     font-size: 18px;
@@ -4737,4 +4734,3 @@ dl.toggle.time-line:before {
   
     color: var(--primary-color);
 }
->>>>>>> 20e2ca151c2b341663f884fd7f358aa0d10f5f8d
