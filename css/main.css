@@ -4627,6 +4627,7 @@ dl.toggle.time-line:before {
     color: var(--primary-color);
     cursor: pointer;
 }
+<<<<<<< HEAD
 /* Preloder */
 
 #preloder {
@@ -4714,3 +4715,26 @@ dl.toggle.time-line:before {
     border-color: #812990;
 }
   
+=======
+.view-comments{
+    color: var(--seven-color);
+    font-size: 18px;
+}
+.view-comments:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+/* admissions */
+.view-more:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.details-admission{
+    color: #eb6b55;
+
+}
+.details-admission:hover{
+  
+    color: var(--primary-color);
+}
+>>>>>>> 20e2ca151c2b341663f884fd7f358aa0d10f5f8d
