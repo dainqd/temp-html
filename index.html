@@ -27,6 +27,7 @@
 	<!--
 			CSS
 			============================================= -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -51,14 +52,15 @@
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center justify-content-between">
 				<div class="banner-content col-lg-9 col-md-12">
-					<h1 class="text-uppercase">
+					<h1 class="text-uppercase" data-aos="fade-down" data-aos-duration="2000"  data-aos-delay="300">
 						We Ensure better education
 						for a better world
 					</h1>
-					<p class="pt-10 pb-10">
+					<p class="pt-10 pb-10" data-aos="zoom-in" data-aos-duration="2000">
 						WHY 500,000 STUDENTS CHOOSE 5SUPERHERO UNIVERSITY?
 					</p>
-					<a href="#" class="primary-btn text-uppercase">Get Started</a>
+					<a href="#" data-aos="fade-up"
+					data-aos-duration="2000" class="primary-btn text-uppercase">Get Started</a>
 				</div>
 			</div>
 		</div>
@@ -357,11 +359,13 @@
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<div class="col-lg-6 col-md-6 search-course-left">
-					<h1 class="text-white">
+					<h1 class="text-white" data-aos="fade-up"
+					data-aos-anchor-placement="center-center">
 						Get reduced fee <br>
 						during this Summer!
 					</h1>
-					<p>
+					<p data-aos="fade-down"
+					data-aos-anchor-placement="center-center">
 						5SUPERHERO is accepting student applications. 
 						You can proceed to register for the academic record of 02 subjects 
 						Math + Information (HK 1 grade 12) at <a class="link-course" href="https://fivesuperhero.com"> https://fivesuperhero.com </a>
@@ -370,7 +374,9 @@
 						for admission at 5SUPERHERO.	
 					</p>
 					<div class="row details-content">
-						<div class="col single-detials">
+						<div class="col single-detials" data-aos="flip-right"  
+						data-aos-easing="ease-out-cubic"
+     					data-aos-duration="2000">
 							<span class="lnr lnr-graduation-hat"></span>
 							<a href="#"><h4>Expert Instructors</h4></a>		
 							<p>
@@ -378,7 +384,9 @@
 								and is always the first choice of students and employers.	
 							</p>						
 						</div>
-						<div class="col single-detials">
+						<div class="col single-detials" data-aos="flip-left"  
+						data-aos-easing="ease-out-cubic"
+     					data-aos-duration="2000">
 							<span class="lnr lnr-license"></span>
 							<a href="#"><h4>Certification</h4></a>		
 							<p>
@@ -389,7 +397,8 @@
 						</div>								
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 search-course-right section-gap">
+				<div class="col-lg-4 col-md-6 search-course-right section-gap" data-aos="zoom-in-up" data-aos-easing="linear"
+				data-aos-duration="500">
 					<form class="form-wrap" action="#">
 						<h4 class="text-white pb-20 text-center mb-30">Search for Available Course</h4>		
 						<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >
@@ -797,6 +806,10 @@
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/mail-script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 	<script>
 		$(function () {
 			$("#header").load("/include/header.html");
